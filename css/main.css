@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192deg, 100%, 9%);
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(192deg, 100%, 9%);
+}
+
+header {
+  display: flex;
+  margin: 3rem;
+  justify-content: space-between;
+}
+header .nav-btn {
+  background-color: transparent;
+  border: 1px solid hsl(321deg, 100%, 78%);
+  border-radius: 50px;
+  width: 10rem;
+}
+header .nav-btn:hover {
+  box-shadow: 0 0 5px 2px hsla(321deg, 100%, 78%, 0.548);
+}
+header .nav-btn p {
+  color: hsl(321deg, 100%, 78%);
+}
+
+.cta {
+  margin-top: 2rem;
+  border: none;
+  width: 350px;
+  padding: 1.2rem;
+  border-radius: 50px;
+  background-color: hsl(322deg, 100%, 66%);
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.308);
+}
+.cta p {
+  color: hsl(207deg, 100%, 98%);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+main .sec-1 {
+  margin: 13rem 15% 0;
+}
+main .sec-1 .para {
+  margin: 2rem 26% 0;
+}
+main .sec-2 .screen-mockup {
+  margin-top: 8rem;
+}
+main .sec-2 .call {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12rem 0;
+}
+main .sec-2 .call img {
+  width: 50px;
+  margin-right: 10rem;
+}
+main .sec-2 .call span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+main .sec-2 .call p {
+  color: rgba(128, 128, 128, 0.705);
+  margin-top: 1rem;
+}
+main .sec-3 .contained {
+  background-color: #F6FBFF;
+  margin-top: -0.5rem;
+  padding: 0 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 4rem;
+}
+main .sec-3 img {
+  width: 100%;
+  grid-column: 2;
+}
+main .sec-3 .main-text {
+  text-align: left;
+  grid-row: 1;
+}
+main .sec-4 {
+  margin: 20% 15% 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 4rem;
+}
+main .sec-4 img {
+  width: 100%;
+  grid-row: 1;
+}
+main .sec-4 .main-text {
+  text-align: left;
+  grid-column: 2;
+}
+main .sec-5 .first-child {
+  margin-top: 4rem;
+}
+main .sec-5 .contained {
+  background-color: #F6FBFF;
+  margin-top: -0.5rem;
+  padding: 0 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 4rem;
+}
+main .sec-5 img {
+  width: 100%;
+  grid-column: 2;
+}
+main .sec-5 .main-text {
+  text-align: left;
+  grid-row: 1;
+}
+main .sec-6 {
+  margin: 15% 0;
+}
+
+footer .footer-section {
+  background-color: #00252E;
+  margin-top: -0.5rem;
+  padding: 30px 5% 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+}
+footer .foot-sec-1 {
+  grid-column: 2;
+  text-align: left;
+  margin-top: 3.5rem;
+}
+footer .foot-sec-1 h3 {
+  color: hsl(207deg, 100%, 98%);
+  padding-top: 1rem;
+}
+footer .foot-sec-1 p {
+  color: hsl(207deg, 100%, 98%);
+  padding: 0.5rem 14rem 0 0;
+}
+footer .foot-sec-1 input {
+  margin-top: 1.5rem;
+  background-color: hsl(207deg, 100%, 98%);
+  width: 350px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+}
+footer .foot-sec-1 .sub-btn {
+  width: 200px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(322deg, 100%, 66%);
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(207deg, 100%, 98%);
+  margin-left: 2rem;
+}
+footer .foot-sec-2 {
+  grid-row: 1;
+  text-align: left;
+}
+footer .foot-sec-2 .logo {
+  padding-top: 5rem;
+  filter: brightness(0) invert(1);
+}
+footer .foot-sec-2 p {
+  padding: 2rem 15rem 0 0;
+  color: hsl(207deg, 100%, 98%);
+}
+footer .foot-sec-2 .info p img {
+  padding-right: 1rem;
+}
+footer .icons i {
+  color: hsl(207deg, 100%, 98%);
+  padding: 2rem 1rem 0 0;
+  margin-bottom: 5rem;
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+  .par {
+    margin-top: 1rem;
+  }
+  header {
+    margin: 2rem 1.5rem;
+  }
+  header div img {
+    width: 120px;
+  }
+  header .nav-btn {
+    width: 7rem;
+    padding: 0.3rem;
+    margin-bottom: 0.2rem;
+  }
+  header .nav-btn p {
+    font-size: 0.8rem;
+  }
+  .cta {
+    margin-top: 3rem;
+    border: none;
+    width: 250px;
+    padding: 0.7rem;
+  }
+  main .sec-1 {
+    margin: 6rem 9% 0;
+  }
+  main .sec-1 h1 {
+    font-size: 1.5rem;
+  }
+  main .sec-1 .para {
+    margin: 2rem 0;
+  }
+  main .sec-2 {
+    margin: 0 2%;
+  }
+  main .sec-2 .screen-mockup {
+    margin-top: 6rem;
+    width: 300px;
+  }
+  main .sec-2 .call {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main .sec-2 .call img {
+    width: 30px;
+    margin-right: 8rem;
+  }
+  main .sec-2 .call .messageSent {
+    margin-top: 5rem;
+  }
+  main .sec-2 .call span {
+    margin-top: 6rem;
+    font-weight: 700;
+    font-size: 3.8rem;
+  }
+  main .sec-2 .call p {
+    margin-top: 1rem;
+  }
+  main .sec-3 {
+    padding: 0 8%;
+  }
+  main .sec-3 .contained {
+    padding: 0;
+    background-color: #F6FBFF;
+    display: flex;
+    flex-direction: column;
+  }
+  main .sec-3 .contained .main-text {
+    text-align: center;
+  }
+  main .sec-3 .contained img {
+    width: 80%;
+  }
+  main .sec-4 {
+    margin: 20% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+  }
+  main .sec-4 .main-text {
+    text-align: center;
+  }
+  main .sec-4 img {
+    width: 80%;
+  }
+  main .sec-5 {
+    padding: 0 8%;
+  }
+  main .sec-5 .contained {
+    padding: 0;
+    background-color: #F6FBFF;
+    display: flex;
+    flex-direction: column;
+  }
+  main .sec-5 .contained .main-text {
+    text-align: center;
+  }
+  main .sec-5 .contained img {
+    width: 80%;
+  }
+  main .sec-6 {
+    margin: 15% 0 45%;
+  }
+  footer .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .foot-sec-1 {
+    text-align: left;
+  }
+  footer .foot-sec-1 h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  footer .foot-sec-1 p {
+    color: hsl(207deg, 100%, 98%);
+    padding: 0.5rem 1rem 0 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  footer .foot-sec-1 .email-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .foot-sec-1 input {
+    width: 340px;
+    padding: 0.8rem;
+    margin: 1.5rem 0;
+  }
+  footer .foot-sec-1 .sub-btn {
+    width: 150px;
+    padding: 0.8rem;
+    margin-left: 12rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  footer .foot-sec-2 .logo {
+    width: 50%;
+    padding-top: 5rem;
+    filter: brightness(0) invert(1);
+  }
+  footer .foot-sec-2 p {
+    padding: 0.5rem 1rem 0 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  footer .foot-sec-2 .info {
+    margin-top: 2rem;
+  }
+  footer .foot-sec-2 .info p {
+    margin-top: 1rem;
+  }
+  footer .foot-sec-2 .info p img {
+    padding-right: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */
